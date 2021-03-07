@@ -1,0 +1,54 @@
+.flex{
+  display: flex;
+}
+
+.flex-wrp{
+  flex-wrap: wrap;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.shrink-0 {
+  flex-shrink: 0;
+}
+
+/* flex纵向排列 */
+.flex-cloumn{
+  display: flex;
+  flex-direction: column;
+}
+
+.aitems-center{
+  align-items: center;
+}
+
+.aitems-end{
+  align-items: flex-end;
+}
+
+.aitems-stretch{
+  align-items: stretch;
+}
+
+.jcontent-center{
+  justify-content: center;
+}
+
+.jcontent-end{
+  justify-content: flex-end;
+}
+
+.jcontent-between{
+  justify-content: space-between;
+}
+
+.jcontent-around{
+  justify-content: space-around;
+}
+
+// 超出省略号
+.text-ellipsis(@width:100%){
+	width:@width;display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
